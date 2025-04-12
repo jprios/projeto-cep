@@ -1,0 +1,11 @@
+[server]
+headless = true
+port = 10000
+
+[browser]
+serverAddress = "localhost"
+serverPort = 10000
+gatherUsageStats = false
+
+[global]
+email = ""
