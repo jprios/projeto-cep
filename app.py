@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="Busca de Endereço por CEP", layout="centered")
-st.title("📍 Consulta por CEP")
+st.title("📍 Consulta de Endereço por CEP")
 
 # Campo de entrada
 cep_input = st.text_input("Digite o CEP (somente números):", max_chars=8)
